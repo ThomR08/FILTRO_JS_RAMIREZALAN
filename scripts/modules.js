@@ -8,6 +8,8 @@ export async function searchMovie(movieDiccionary) {
             <img src="${element["#IMG_POSTER"]}" alt="">
             <h2>${element["#TITLE"]}</h2>
             <p>Year: ${element["#YEAR"]}</p>
+            <p>Rank: ${element["#RANK"]}</p>
+            <p>Actors: ${element["#ACTORS"]}</p>
             <a href="${element["#IMDB_URL"]}"><h3>IMDB</h3></a>
         </div>`
     });

@@ -78,8 +78,16 @@
 			<div class="moviesSection">
 				<h1>Buscador de Peliculas</h1>
 				<form id="formMovies">
-					<input name="movieName" type="text" placeholder="Nombre de la pelicula">
-					<button type="submit">Buscar</button>
+					<div class="none">
+						<input name="movieName" type="text" placeholder="Nombre de la pelicula">
+						<button type="submit">Buscar</button>
+					</div>
+					<select name="filter">
+						<option value="null">Filter</option>
+						<option value="title">Title</option>
+						<option value="year">Year</option>
+						<option value="rank">Rank</option>
+					</select>
 				</form>
 				<section id="movies" class="sectionMovies">
 				</section>

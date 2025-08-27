@@ -598,9 +598,11 @@ a {
     color: var(--dark);
 }
 
-form {
+#formMovies {
+	margin: 0;
     display: flex;
     flex-direction: row;
+	gap: 2rem;
 }
 
 input {
@@ -611,7 +613,15 @@ input {
     border-radius: 20px 0 0 20px;
 }
 
-form button {
+select {
+    font-size: 1rem;
+    background-color: var(--light);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+#formMovies button {
     font-size: 1rem;
     background-color: var(--dark-grey);
     padding: 10px;
@@ -650,6 +660,10 @@ form button {
 
 .sectionMovies h1, h2, h3, h4, p {
     text-align: center;
+}
+
+.none {
+	display: flex;
 }
 
 /* MOVIES SECTION */

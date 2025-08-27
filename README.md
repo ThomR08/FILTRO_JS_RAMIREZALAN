@@ -4,13 +4,17 @@
 
 # Buscador de Películas
 
-Este es una plataforma tipo Dashboard con la finalidad de que los usuarios puedan hacer una consulta de peliclas de IMDb para ver sus características principales.
+Este es una plataforma tipo Dashboard con la finalidad de que los usuarios puedan hacer una consulta de peliclas de IMDb para ver Infomación principal de cada una.
 
 ---
 
 ## **Características principales**
 
 * **Busqueda de películas por nombre**: los usuarios pueden hacer busquedas de peliculas pr nombre.
+
+* **Mostrar información de la película**: los usuarios ver el titulo, año de salida, el rank de IMDb, los actores y el link a la pelicula en IMDb.
+
+* **Filtrar**: los usuarios pueden filtrar las busquedas de las peliculas por titulo, año de saliday rank en IMDb.
 
 ---
 
